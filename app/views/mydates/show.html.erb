@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Entry:</b>
+  <%= @mydate.entry %>
+</p>
+
+<p>
+  <b>Date:</b>
+  <%= @mydate.date %>
+</p>
+
+
+<%= link_to 'Edit', edit_mydate_path(@mydate) %> |
+<%= link_to 'Back', mydates_path %>
